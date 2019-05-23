@@ -49,7 +49,8 @@ export default class HomeScreen extends React.Component {
             <Text style={styles.getStartedText}>
               Hello World as an image:
             </Text>
-            <Image style={[styles.welcomeImage, {width: 160, height: 140, marginTop: -20}]} source={require('../assets/images/hello.jpeg')} />
+            <Image style={[styles.welcomeImage, {width: 160, height: 140, marginTop: -20}]} 
+                  source={require('../assets/images/hello.jpeg')} />
           </View>
         </ScrollView>
 
