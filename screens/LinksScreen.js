@@ -5,7 +5,7 @@ import Profile from '../components/Profile';
 
 export default class LinksScreen extends React.Component {
   static navigationOptions = {
-    header: null,
+    title: 'My Profile',
   };
 
   render() {
