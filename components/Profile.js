@@ -102,6 +102,7 @@ const styles = StyleSheet.create({
     {
         backgroundColor: '#cacaca',
         borderColor: '#dbdbdb',
+        marginBottom: 0,
     }
 });
 
